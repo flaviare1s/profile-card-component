@@ -86,3 +86,9 @@ h1 span {
   font-size: 11px;
   margin-top: 5px;
 }
+
+@media screen and (max-width:400px) {
+  .card {
+    width: 90%;
+  }
+}
