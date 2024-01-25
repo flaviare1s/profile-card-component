@@ -96,6 +96,10 @@ h1 span {
 }
 
 @media screen and (max-width:380px) {
+  main {
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  }
+
   .container {
     width: 100%;
   }
