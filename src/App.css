@@ -12,11 +12,14 @@
   box-sizing: border-box;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.card {
+  background-image: url(/public/bg-pattern-card.svg);
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+main {
+  background-image: url(/public/bg-pattern-bottom.svg);
+}
+
+.container {
+  width: 33%;
 }
