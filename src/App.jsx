@@ -4,19 +4,18 @@ export function App() {
 
   return (
      <div>
-  Victor Crest
-  26
-  London
+        Victor Crest
+        26
+        London
 
-  80K
-  Followers
+        80K
+        Followers
 
-  803K
-  Likes
+        803K
+        Likes
 
-  1.4K
-  Photos
-      
+        1.4K
+        Photos 
     </div>
   )
 }

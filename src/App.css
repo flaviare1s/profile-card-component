@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --cor0: hsl(185, 75%, 39%);
+  --cor1: hsl(229, 23%, 23%);
+  --cor2: hsl(227, 10%, 46%);
+}
+
 * {
   padding: 0px;
   margin: 0px;
