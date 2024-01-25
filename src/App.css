@@ -88,6 +88,10 @@ h1 span {
 }
 
 @media screen and (max-width:400px) {
+  .container {
+    width: 90%;
+  }
+
   .card {
     width: 90%;
   }
