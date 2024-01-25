@@ -1,4 +1,5 @@
 import './App.css'
+import image from './assets/image-victor.jpg';
 
 export function App() {
 
@@ -9,7 +10,7 @@ export function App() {
             <div className="card">
               <div className="card-header">
                 <div className='image'>
-                  <img src="./assets/image-victor.jpg" alt="Victor's photo" />
+                  <img src={ image } alt="Victor's photo" />
                 </div>
                   <h1>Victor Crest <span>26</span></h1>
                   <p>London</p>
