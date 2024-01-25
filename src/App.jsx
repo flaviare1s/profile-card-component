@@ -15,17 +15,17 @@ export function App() {
                   <p>London</p>
               </div>
                 <div className='card-main'>
-                  <div className='card-main-1'>
-                    <p>80K</p>
-                    <p>Followers</p>
+                  <div className='sub-card-main'>
+                    <p className='text-top'>80K</p>
+                    <p className='text-bottom'>Followers</p>
                   </div>
-                  <div className='card-main-1'>
-                    <p>803K</p>
-                    <p>Likes</p>
+                  <div className='sub-card-main'>
+                    <p className='text-top'>803K</p>
+                    <p className='text-bottom'>Likes</p>
                   </div>
-                  <div className='card-main-1'>
-                    <p>1.4K</p>
-                    <p>Photos</p>
+                  <div className='sub-card-main'>
+                    <p className='text-top'>1.4K</p>
+                    <p className='text-bottom'>Photos</p>
                   </div>
                 </div>
             </div>
