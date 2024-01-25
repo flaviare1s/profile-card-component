@@ -7,27 +7,27 @@ export function App() {
         <main>
           <div className="container">
             <div className="card">
-              <div className='image'>
-                <img src="/public/image-victor.jpg" alt="Victor's photo" />
+              <div className="card-header">
+                <div className='image'>
+                  <img src="/public/image-victor.jpg" alt="Victor's photo" />
+                </div>
+                  <h1>Victor Crest <span>26</span></h1>
+                  <p>London</p>
               </div>
-              <div className="card-content">
-                <h1>Victor Crest <span>26</span></h1>
-                <p>London</p>
-                <div>
-                  <div>
-                    80K
-                    Followers
+                <div className='card-main'>
+                  <div className='card-main-1'>
+                    <p>80K</p>
+                    <p>Followers</p>
                   </div>
-                  <div>
-                    803K
-                    Likes
+                  <div className='card-main-1'>
+                    <p>803K</p>
+                    <p>Likes</p>
                   </div>
-                  <div>
-                    1.4K
-                    Photos
+                  <div className='card-main-1'>
+                    <p>1.4K</p>
+                    <p>Photos</p>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </main>

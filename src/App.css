@@ -12,14 +12,38 @@
   box-sizing: border-box;
 }
 
-.card {
-  background-image: url(/public/bg-pattern-card.svg);
-}
 
 main {
-  background-image: url(/public/bg-pattern-bottom.svg);
+  background-color: var(--cor0);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/public/bg-pattern-top.svg), url(/public/bg-pattern-top.svg);
+  background-position: -50% 200%, 150% -150%;
+  background-repeat: no-repeat, no-repeat;
 }
 
-.container {
-  width: 33%;
+
+.card {
+  background-color: white;
+  width: 370px;
+  height: 350px;
+  border-radius: 20px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/public/bg-pattern-card.svg);
+  background-size: 350px 140px;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0px 0px;
 }
